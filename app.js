@@ -2,9 +2,9 @@ const express = require('express');
 const app = express();
 
 const students = [
-  { name: 'Marwan Saif', age: 21, major: 'Computer Science' },
-  { name: 'Mohamed Saif', age: 24, major: 'Engineer' },
-  { name: 'Moaz Saif', age: 16, major: 'student' }
+  { name: 'Mostafa', age: 21, major: 'Computer Science' },
+  { name: 'Naser', age: 21, major: 'Engineer' },
+  { name: 'Elngar', age: 21, major: 'student' }
 ];
 
 app.get('/students', (req, res) => {
